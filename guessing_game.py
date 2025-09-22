@@ -11,7 +11,7 @@ if __name__ == "__main__":
     # create guessing game below this
     pass
 def guessing_game():
-    if num := input() != 15:
+    if num := int(input()) != 15:
         print(f"Too {'high' if num >15 else 'low'}! Try again.")
         guessing_game()
     return "Congratulations! You guessed it!"
