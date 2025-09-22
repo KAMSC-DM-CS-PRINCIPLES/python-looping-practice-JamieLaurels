@@ -6,6 +6,10 @@ def reverse_string(text):
     # HINT: Return the reversed_text
     # HINT: NO SLICING ALLOWED - must use loops only
     pass
+    result = ""
+    for char in text:
+        result = char + result # prepend char to reverse the str
+    return result
 
 if __name__ == "__main__":
     # create reverse string below this
